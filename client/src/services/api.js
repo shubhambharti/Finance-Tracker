@@ -3,7 +3,8 @@ import axios from "axios";
 const API = axios.create({
   baseURL:
     import.meta.env.VITE_API_URL ||
-    "https://finance-tracker-server-pgut.onrender.com/api",
+    "https://finance-tracker-server-pgut.onrender.com/api" ||
+    "http://localhost:5000",
 });
 
 API.interceptors.request.use((req) => {
