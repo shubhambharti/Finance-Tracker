@@ -8,16 +8,27 @@ dotenv.config();
 connectDB();
 
 const app = express();
-// app.use(cors());
+
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://shubham-finance-tracker.netlify.app",
+];
+
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
     credentials: true,
   })
 );
+
 app.use(express.json());
 
-// Routes
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/expenses", require("./routes/expenses"));
 app.use("/api/budgets", require("./routes/budgets"));
@@ -27,7 +38,6 @@ app.get("/", (req, res) => {
   res.send("API is running...");
 });
 
-// Start server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
