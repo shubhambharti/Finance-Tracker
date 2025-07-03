@@ -19,7 +19,7 @@ https://your-live-site-link.com
 
 Test Login Credentials:
 
-Email: test@gmail.com
+Email: test@gmail.com <br>
 Password: Test@12
 
 You can also register with your own credentials.
@@ -56,12 +56,14 @@ How to Run Locally:
 
 .env.example Files:
 
-Backend (.env.example):
-PORT=5000
-MONGODB_URI=your_mongodb_connection_string
+<b>Backend (.env.example):</b>
+
+PORT=5000 <br>
+MONGODB_URI=your_mongodb_connection_string<br>
 JWT_SECRET=your_jwt_secret_key
 
-Frontend (.env.example):
+<b>Frontend (.env.example):</b>
+
 VITE_BACKEND_URL=http://localhost:5000
 
 Project Structure:
