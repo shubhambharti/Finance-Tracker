@@ -84,5 +84,7 @@ Extra Features:
 Author:
 
 Shubham Bharti
+
 GitHub: https://github.com/shubhambharti
+
 Live on: https://shubham-finance-tracker.netlify.app/
