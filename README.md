@@ -41,7 +41,7 @@ How to Run Locally:
    - Create a .env file using the .env.example format
 
    - Run the server:
-     npm run dev
+     npm run dev / nodemon index.js
 
 3. Set up Frontend:
 
@@ -66,7 +66,7 @@ JWT_SECRET=your_jwt_secret_key
 
 <b>Frontend (.env.example):</b>
 
-VITE_BACKEND_URL=http://localhost:5000
+VITE_BACKEND_URL= http://localhost:5000
 
 Project Structure:
 
