@@ -21,10 +21,6 @@ Test Login Credentials:
 
 Email: test@gmail.com <br>
 Password: Test@12
-[![Watch the video]](./Project-explaination.mp4)
-<video controls src="https://github.com/shubhambharti/Finance-Tracker/raw/refs/heads/main/Project-explaination.mp4" title="Project-explaination.mp4">
-Video format not supported
-</video>
 
 [Click here to watch the demo video](./Project-explaination.mp4)
 
