@@ -15,7 +15,7 @@ What the App Does:
 Live Deployed Site:
 
 You can access the live version of the app here:
-https://your-live-site-link.com
+https://shubham-finance-tracker.netlify.app/
 
 Test Login Credentials:
 
@@ -88,5 +88,3 @@ Author:
 Shubham Bharti
 
 GitHub: https://github.com/shubhambharti
-
-Live on: https://shubham-finance-tracker.netlify.app/
