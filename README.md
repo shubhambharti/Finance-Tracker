@@ -21,8 +21,9 @@ Test Login Credentials:
 
 Email: test@gmail.com <br>
 Password: Test@12
-
+<video src="Project-explaination.mp4" controls width="600">
 [Click here to watch the demo video](./Project-explaination.mp4)
+</video>
 
 You can also register with your own credentials.
 
