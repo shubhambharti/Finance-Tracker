@@ -22,6 +22,8 @@ Test Login Credentials:
 Email: test@gmail.com <br>
 Password: Test@12
 
+[Click here to watch the demo video](./Project-explaination.mp4)
+
 You can also register with your own credentials.
 
 How to Run Locally:
